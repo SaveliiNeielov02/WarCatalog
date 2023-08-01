@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Tanks catalog";
+}
+@model List<Vehicle>
+<div class="tanks-wrapper">
+    @foreach (var vehicle in Model)
+    {
+        <div class="tank" onmouseover="onHover(@vehicle.ID, this, @vehicle.TypeID)">
+            <div class="vehicle-head" id="@vehicle.ID" style="display: flex; justify-content: space-between;">
+                 <h2>@vehicle.Name </h2>
+            </div>
+            <a href="/VehiclesCatalog/VehicleViewPage/@vehicle.ID">
+                <img src="@vehicle.PhotoURL" alt="Vehicle Photo">
+            </a>
+        </div>
+    }
+</div>

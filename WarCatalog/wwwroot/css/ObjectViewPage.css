@@ -1,0 +1,31 @@
+﻿.object-view {
+    display: flex;
+    align-items: center;
+}
+
+    .object-view img {
+        width: 1200px;
+        height: 900px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+.object-details {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    flex: 1 1 auto;
+    background-image: url(https://t3.ftcdn.net/jpg/02/69/77/30/360_F_269773059_cckUVvwCkpQXGYEYPn6lfUrvxzmCAegd.jpg);
+}
+
+    .object-details h2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .object-details p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 23px;
+        margin-top: 10px;
+    }

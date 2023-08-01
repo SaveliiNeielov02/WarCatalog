@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/css/CatalogPage.css" />
+    <link rel="stylesheet" href="~/css/ObjectViewPage.css" />
+    <link rel="stylesheet" href="~/css/_Layout.css" />
+    <link rel="stylesheet" href="~/css/VehicleAdditionPage.css" />
+    <script src="~/js/VehicleAddition.js"></script>
+    <script src="~/js/VehiclesCatalog.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="utf-8" />
+    @* <meta name="viewport" content="width=device-width, initial-scale=1.0" />*@
+    <title>@ViewData["Title"] - WarCatalog</title>
+
+</head>
+<body class="body">
+    <header>
+        <div class="header-class">
+            <ul>
+                <li><a href="/VehiclesCatalog/TanksCatalogPage"> Танки </a></li>
+                <li><a href="/VehiclesCatalog/PlanesCatalogPage"> Самолеты </a></li>
+                <li><a href="/VehiclesCatalog/HelicoptersCatalogPage"> Вертолеты </a></li>
+                <li><a href="/VehiclesCatalog/BMPCatalogPage"> БМП </a></li>
+                <li style="background-color: pink;"><a href="/VehicleAddition"> Добавить технику </a></li>
+            </ul>
+        </div>
+    </header>
+        <main>
+            @RenderBody()
+        </main>
+</body>
+</html>

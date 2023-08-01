@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Vehicle addition";
+}
+
+<form id="addForm">
+    <label for="name">Название:</label>
+    <input type="text" id="name" required>
+    <br>
+    <label for="type">Тип:</label>
+    <select id="type" required>
+        <option>Танк</option>
+        <option>Самолет</option>
+        <option>БМП</option>
+        <option>Вертолет</option>
+
+    </select>
+    <br>
+    <label for="photoUrl">URL-фото:</label>
+    <input type="text" id="photoUrl" required>
+    <br>
+    <label for="description">Описание:</label>
+    <textarea id="description" required></textarea>
+    <br>
+    <input type="submit" value="Добавить" onclick="addData(event)">
+</form>

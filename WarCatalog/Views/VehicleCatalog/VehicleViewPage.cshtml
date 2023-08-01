@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Tank View";
+}
+@model Vehicle
+<div class="object-view">
+    <img src="@Model.PhotoURL" alt="Tank Photo" width="900" height="600">
+    <div class="object-details">
+        <h2>@Model.Name</h2>
+        <p>@Model.Description</p>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\css\\CatalogPage.css",
+      "PackagePath": "staticwebassets\\css\\CatalogPage.css"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\css\\ObjectViewPage.css",
+      "PackagePath": "staticwebassets\\css\\ObjectViewPage.css"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\css\\VehicleAdditionPage.css",
+      "PackagePath": "staticwebassets\\css\\VehicleAdditionPage.css"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\css\\_Layout.css",
+      "PackagePath": "staticwebassets\\css\\_Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\js\\VehicleAddition.js",
+      "PackagePath": "staticwebassets\\js\\VehicleAddition.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Owner\\source\\repos\\WarCatalog\\WarCatalog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WarCatalog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WarCatalog.props",
+      "PackagePath": "build\\WarCatalog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WarCatalog.props",
+      "PackagePath": "buildMultiTargeting\\WarCatalog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WarCatalog.props",
+      "PackagePath": "buildTransitive\\WarCatalog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,40 @@
+﻿/* Стили для списка */
+.body {
+    background-image: url("https://img.freepik.com/premium-photo/abstract-black-background-dark-blue-background-for-graphic-design-and-web-design_900706-8562.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-class {
+}
+
+.header-class ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 50px;
+}
+
+/* Стили для элементов списка */
+    .header-class li {
+        display: inline-block;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .header-class a {
+        text-decoration: none; /* Убираем нижнее подчеркивание */
+        color: inherit;  
+    }
+.header-class li:hover {
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+.tank:hover h2 {
+    color: cornflowerblue;
+    cursor: pointer; /* Изменение цвета при наведении */
+}

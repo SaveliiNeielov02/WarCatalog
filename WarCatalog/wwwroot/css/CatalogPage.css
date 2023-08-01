@@ -1,0 +1,49 @@
+﻿/* Обертка для танков */
+/* Обертка для танков */
+.tanks-wrapper {
+    text-align: center;
+}
+
+/* Стили для каждого танка */
+.tank {
+    display: inline-block;
+    width: auto;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+    text-align: left;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/premium-photo/modern-studio-background-modern-and-simple-white-background-modern-empty-space-studio-room_489925-123.jpg);
+}
+
+    /* Заголовок танка */
+    .tank h2 {
+        margin-top: 0;
+        font-family: "Open Sans", sans-serif;
+        float: inline-start;
+        display: inline-block;
+        display: flex;
+    }
+
+    /* Изображение танка */
+    .tank img {
+        width: 600px; /* Задайте желаемую ширину для всех фотографий */
+        height: 300px; /* Задайте желаемую высоту для всех фотографий */
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+#link {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none; /* Убираем нижнее подчеркивание */
+    color: inherit;
+    width: 10%;
+}
+
+.vehicle-head {
+    display: flex; /* Используем flex для расположения заголовков в одну строку */
+
+}
